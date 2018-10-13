@@ -52,7 +52,7 @@ You've just learned the basics of using Azure Pipelines. Consider trying these f
   ![Build status](https://dev.azure.com/typescript/TypeScript/_apis/build/status/Typescript/node8)
 1. In Azure Pipelines, go to the **Builds** page to view the list of pipelines.
 1. Select the pipeline that was created for you.
-1. In the context menu for the pipeline, select **Status badge**.
+1. Click **". . ."** on the toolbar to view the context menu for the pipeline. Then, select **Status badge**.
 1. Copy the **Sample Markdown** text to the clipboard.
 1. Paste the Markdown at the top of your repository's `README.md` file.
 
