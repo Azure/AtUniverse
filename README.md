@@ -12,7 +12,7 @@ This is a step-by-step guide to using Azure Pipelines to set up continuous integ
 
 ## Fork the AtUniverse repository
 
-1. If you aren't already signed into GitHub, click **Sign in** at the top-right of this page.
+1. If you aren't already signed into GitHub, click **Sign in** at the top-right of this page. Enter your credentials to sign in.
 1. Fork this repository by clicking **Fork** at the top-right of this page.
 1. Choose to fork the repository in your personal GitHub account. GitHub will fork the repository and navigate to it in your account.
 
