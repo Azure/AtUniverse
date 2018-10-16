@@ -3,7 +3,7 @@
 
 # :rocket: Create your first pipeline
 
-This is a step-by-step guide to using Azure Pipelines to set up continuous integration for a GitHub repository.
+In a few simple steps, set up continuous integration for a GitHub repository using Azure Pipelines.
 
 :clock3: Duration: 5-10 minutes
 
@@ -51,7 +51,7 @@ You've just learned the basics of using Azure Pipelines. Consider trying these f
 1. Near the top of the page, click the **Checks** tab. Select your build under the **Azure Pipelines** section to see more status information. To view detailed logs or manage your pipeline, click **View more details on Azure Pipelines**.
 
 ### Add the status badge to your repository
-  ![Build status](https://dev.azure.com/typescript/TypeScript/_apis/build/status/Typescript/node8)
+  ![Build status](https://dev.azure.com/typescript/TypeScript/_apis/build/status/TypeScript%20Insider%20Publish)
 1. In Azure Pipelines, go to the **Builds** page to view the list of pipelines.
 1. Select the pipeline that was created for you.
 1. Click **". . ."** on the toolbar to view the context menu for the pipeline. Then, select **Status badge**.
