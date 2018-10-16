@@ -29,26 +29,31 @@ In a few simple steps, set up continuous integration for a GitHub repository usi
 
 ## :rocket: Create a new pipeline
 
-1. After you're redirected to the "New pipeline" page of your Azure DevOps organization, select your `AtUniverse` repository fork to create a pipeline for it.
+1. After you're redirected to the **New pipeline** page of your Azure DevOps organization, select your **AtUniverse** repository fork to create a pipeline for it.
 1. Select the **Docker image** template to build the repo's Dockerfile. Or, for an npm-only build, select **Node.js**.
 1. YAML text that defines your pipeline will be displayed.
 1. Click **Save and run**. In the pane that appears, select **Create a new branch for this commit and start a pull request**. Then, click **Save and run** at the bottom of the pane.
 1. The YAML file is pushed to a new branch of your GitHub repository, a pull request is created for it, and you'll see the pipeline run for the first time.
 
-    #### :tada: You did it! Congratulations!
+### Check your build results on GitHub
+
+1. Navigate to your repository fork in your GitHub account (ex: `https://github.com/janedoe/AtUniverse`).
+1. Click the **Pull requests** tab and select the pull request that was created for you, named **Set up CI with Azure Pipelines**.
+1. At the bottom of the page, click **Show all checks** to see the build status of your pipeline.
+1. Near the top of the page, click the **Checks** tab. Select your build under the **Azure Pipelines** section to see more status information.
+
+### Merge the pull request
+1. Click on the **Conversation** tab near the top-left of the page. Click **Merge** to merge the pull request and enable continuous integration for your repository.
+
+#### :tada: You did it! Congratulations!
+
+Now, your pipeline will automatically run to validate each pull request and when new code is merged into the master branch of your repository.
 
 ## :grey_question: Optional next steps
 
 #### :warning: When you're done, close all browser tabs to completely sign out
 
-You've just learned the basics of using Azure Pipelines. Consider trying these follow-on steps.
-
-### Check your build results in GitHub
-
-1. Navigate to your repository fork in your GitHub account (ex: `https://github.com/janedoe/AtUniverse`).
-1. Click the **Pull requests** tab and select the pull request that was created for you, named **Set up CI with Azure Pipelines**.
-1. At the bottom of the page, click **Show all checks** to see the build status of your pipeline.
-1. Near the top of the page, click the **Checks** tab. Select your build under the **Azure Pipelines** section to see more status information. To view detailed logs or manage your pipeline, click **View more details on Azure Pipelines**.
+You've set up your first pipeline using Azure Pipelines. Consider trying these follow-on steps.
 
 ### Add the status badge to your repository
   ![Build status](https://dev.azure.com/typescript/TypeScript/_apis/build/status/TypeScript%20Insider%20Publish)
