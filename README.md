@@ -59,9 +59,11 @@ You've set up your first pipeline using Azure Pipelines. Consider trying these f
   ![Build status](https://dev.azure.com/typescript/TypeScript/_apis/build/status/TypeScript%20Insider%20Publish)
 1. In Azure Pipelines, go to the **Builds** page to view the list of pipelines.
 1. Select the pipeline that was created for you.
-1. Click **". . ."** on the toolbar to view the context menu for the pipeline. Then, select **Status badge**.
+1. Click **". . ."** on the toolbar to view the context menu for the pipeline. Then, select **Status badge** (see the image below).
 1. Copy the **Sample Markdown** text to the clipboard.
 1. Paste the Markdown at the top of your repository's `README.md` file.
+
+  ![Context menu](status-badge.png)
 
 ### Create another pipeline
 
