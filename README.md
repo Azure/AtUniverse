@@ -5,7 +5,7 @@
 
 This is a step-by-step guide to using Azure Pipelines to set up continuous integration for a GitHub repository.
 
-:clock3: Duration: ~5 minutes
+:clock3: Duration: 5-10 minutes
 
 ## :pencil2: Prerequisites
 
@@ -38,6 +38,8 @@ This is a step-by-step guide to using Azure Pipelines to set up continuous integ
     #### :tada: You did it! Congratulations!
 
 ## :grey_question: Optional next steps
+
+#### :warning: When you're done, close all browser tabs to completely sign out
 
 You've just learned the basics of using Azure Pipelines. Consider trying these follow-on steps.
 
