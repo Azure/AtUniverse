@@ -1,0 +1,25 @@
+# Node.js
+# Build a general Node.js project with npm.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+- master
+
+strategy:
+  matrix:
+    Windows:
+      vmImage: vs2017-win2016
+    macOS:
+      vmImage: macOS-10.13
+    Linux:
+      vmImage: ubuntu-16.04
+
+pool:
+  vmImage: $(vmImage)
+
+steps:
+- script: |
+    npm install
+    npm run build
+  displayName: 'npm install and build'
