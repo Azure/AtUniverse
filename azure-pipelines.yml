@@ -6,8 +6,17 @@
 trigger:
 - master
 
+strategy:
+  matrix:
+    Windows:
+      vmImage: vs2017-win2016
+    macOS:
+      vmImage: macos-10.13
+    Linux:
+      vmImage: ubuntu-16.04
+
 pool:
-  vmImage: 'Ubuntu-16.04'
+  vmImage: $(vmImage)
 
 steps:
 - script: |
