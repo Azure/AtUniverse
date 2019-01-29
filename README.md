@@ -69,6 +69,3 @@ Create additional pipelines by clicking **+ New build pipeline** from within Azu
 ### Deploy
 
 Ask an Azure Pipelines representative how you can deploy your application to any platform or cloud.
-
-
-
